@@ -32,6 +32,25 @@ function fizzBuzz(num){
       console.log(i);
     }
   }
+
+
+  // Solution #3
+  // If the argument is an integer
+  for (let i = 1; i <= num; i++ ){
+    if(i % 5 === 0 && i % 3 === 0){
+      console.log("fizzbuzz");
+    }
+    else if(i % 5 === 0){
+      console.log("fizz");
+    }
+    else if(i % 3 === 0){
+      console.log("buzz");
+    }
+    else{
+      console.log(i);
+    }
+  }
+
 }
 
 
